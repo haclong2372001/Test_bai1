@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./style.css" rel="stylesheet">
-    </head>
-    <body>
-    
-    </body>
-    <script src="./index.js"></script>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Tong cac so nguyen to la :</h1>
+    <label>Nhap so a : </label>
+    <input type="number" placeholder="nhap so a" id="a">
+    <br>
+    <label>Nhap so b :</label>
+    <input type="number" placeholder="nhap so b" id="b">
+    <br>
+    <input type="submit" onclick="calculate()">
+    <br>
+    <div id="checkValidation"></div>
+    <div id="result"></div>
+</body>
+<script src="index.js"></script>
+
 </html>
