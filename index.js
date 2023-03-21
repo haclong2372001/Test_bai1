@@ -7,7 +7,7 @@ function calculate() {
             sum += i;
         }
     }
-    document.getElementById("result").innerHTML = `Tổng các số nguyên tố trong khoảng từ ${a} đến ${b} là ${sum}`;
+    document.getElementById("result").innerHTML = `Tổng các số nguyên tố từ ${a} đến ${b} là ${sum}`;
 }
 
 function isPrime(n) {
